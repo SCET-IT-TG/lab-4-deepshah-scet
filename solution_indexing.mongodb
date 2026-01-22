@@ -1,5 +1,7 @@
 use movieDB;
 
+db.movies.drop();
+
 db.movies.insertMany([
   { title: "3 Idiots", director: "Rajkumar Hirani", year: 2009, rating: 8.4, genres: ["Comedy", "Drama"], plot: "Two friends start a quest for a lost buddy who was once an optimistic engineering student." },
   { title: "Sholay", director: "Ramesh Sippy", year: 1975, rating: 8.1, genres: ["Action", "Adventure"], plot: "After his family is murdered by a notorious bandit, a former police officer enlists the services of two outlaws to capture him." },
